@@ -1,22 +1,30 @@
-# 👩‍💻 Katrina Francisco – Data Analytics Portfolio
+# 👋 Katrina Francisco – Data Analytics Portfolio
 
-Welcome! I'm a certified Data Analytics professional with hands-on experience using Power BI, Python, and Excel.
+Welcome! I'm a certified Data Analytics professional with hands-on experience in data visualization and dashboard creation using Power BI.
 
-## 🔍 Projects
+---
 
-### 1. Telco Customer Churn Analysis
-- Built a machine learning model to predict customer churn
-- Visualized churn trends with Power BI dashboards
-- **Tools:** Python, Power BI, Excel
-- [📄 View Dashboard (PDF)](telco_churn_dashboard.pdf)
+## 📊 WA Mining Tenement Dashboard — Power BI Project
 
-### 2. Sales Performance Dashboard
-- Created regional sales analysis using slicers, KPIs, and cards
-- **Tools:** Power BI
-- [📄 View Dashboard (PDF)](sales_dashboard.pdf)
+This project explores publicly available mining tenement data from Western Australia.
+
+Using Power BI, I:
+- Cleaned and transformed the dataset
+- Parsed and reformatted date fields
+- Converted area units
+- Created dynamic visuals and responsive charts
+- Built slicers for Tenement Status and Tenement Type
+
+The dashboard tracks trends in tenement activity by type, status, area, and holding entities.
+
+### 🛠 Tools & Skills
+Power BI Desktop | Data Cleaning | DAX | Visual Design
+
+📄 [View Dashboard (PDF)](TenementsPDF.pdf)  
+💾 [Download PBIX File](Tenements.pbix)
 
 ---
 
 ## 📫 Connect With Me
-- [LinkedIn](https://linkedin.com/in/yourprofile)
-- [GitHub](https://github.com/yourusername)
+- [LinkedIn](https://linkedin.com/in/katrinavera)
+- [GitHub](https://github.com/kfdevera)
