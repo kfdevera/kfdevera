@@ -21,7 +21,8 @@ The dashboard tracks trends in tenement activity by type, status, area, and hold
 Power BI Desktop | Data Cleaning | DAX | Visual Design
 
 📄 [View Dashboard (PDF)](TenementsPDF.pdf)  
-💾 [Download PBIX File](Tenements.pbix)
+💾 [Download PBIX File (via Google Drive)](https://drive.google.com/file/d/1E8Olu4Ae7GiilGtdLMkSHPoVjORkhHml/view?usp=sharing)
+
 
 ---
 
