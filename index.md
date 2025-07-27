@@ -4,7 +4,7 @@ Welcome to my portfolio! I’m a certified data analyst passionate about transfo
 
 ---
 
-## 📉 Telecom Churn Prediction Dashboard — Python + Power BI
+## 📉 Telco Churn Prediction Dashboard — Python + Power BI
 
 This project analyzes and predicts customer churn using the **Telco Customer Churn dataset from Kaggle**. Using **Python in Google Colab**, I built a machine learning pipeline and trained a **Random Forest model** to identify customers at risk of churn. I then visualized the prediction output in **Power BI**.
 
