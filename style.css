@@ -1,11 +1,145 @@
+/* General Body Styles */
 body {
-    background-color: #fad005; /* This is the new color! */
+    background-color: #fad005; /* Your chosen yellow background color */
     font-family: Arial, sans-serif;
     color: #333;
     line-height: 1.6;
-    padding: 20px;
+    margin: 0; /* Ensures banner goes edge-to-edge */
+    padding: 0; /* Ensures banner goes edge-to-edge */
 }
 
+/* Styles for your new cover/banner photo */
+.hero-banner {
+    width: 100%;
+    height: 500px; /* Adjust this height to match your banner image's design */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    display: block; /* Removes any extra space below the image */
+    /* margin-bottom is now handled by padding-top on .main-content */
+}
+
+/* NEW: Styles for the main content wrapper */
+.main-content {
+    max-width: 960px; /* Maximum width of your central content column */
+    margin: 0 auto; /* Centers the content block horizontally on the page */
+    padding: 30px 20px; /* Top/bottom padding and left/right padding for inner content */
+    background-color: transparent; /* Ensures it doesn't cover the body background */
+}
+
+/* Font Size and Alignment for Headings and Paragraphs */
+
+/* Default (Larger Screen) Font Sizes */
+h1 {
+    font-size: 5rem; /* Example: 80px for large screens */
+    color: #000;
+    text-align: center; /* Your name should be centered */
+    margin-bottom: 20px;
+    padding: 0; /* Clear any previous padding */
+}
+
+p.intro-paragraph { /* This class was added to your first descriptive paragraph in index.html */
+    font-size: 1.8rem; /* Example: 28.8px for large screens */
+    text-align: center; /* Your intro paragraph should be centered */
+    margin-bottom: 30px; /* Add more space below it */
+    padding: 0; /* Clear any previous padding */
+}
+
+h2 {
+    font-size: 2rem; /* Example: 32px for section titles */
+    color: #000;
+    text-align: left; /* Project titles typically left-aligned within content block */
+    margin-top: 40px; /* Space above new sections */
+    margin-bottom: 15px;
+    padding: 0; /* Clear any previous padding */
+}
+
+p {
+    font-size: 1rem; /* Example: 16px - standard body text size */
+    text-align: left; /* Default paragraphs to left-aligned within the content block */
+    margin-bottom: 10px;
+    padding: 0; /* Clear any previous padding */
+}
+
+ul {
+    font-size: 1rem; /* Example: 16px for list items */
+    text-align: left; /* Lists should be left-aligned */
+    list-style-position: outside; /* Bullet points outside the text block */
+    margin-left: 20px; /* Indent the list from the left edge of its container */
+    margin-bottom: 20px;
+    padding: 0; /* Clear any previous padding */
+}
+
+/* Existing Project Section Styling */
+.project-section {
+    background-color: #fff; /* White background for sections */
+    padding: 25px;
+    border-radius: 8px; /* Slightly rounded corners */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    margin-bottom: 30px;
+}
+
+/* Footer Styling */
+footer {
+    font-size: 0.9rem; /* Example: 14.4px */
+    text-align: center; /* Keep footer centered */
+    margin-top: 50px; /* Space above footer */
+    padding-top: 20px;
+    border-top: 1px solid rgba(0,0,0,0.1); /* Subtle line above footer */
+    color: #666;
+}
+
+/* Ensure links in paragraphs and lists also follow text alignment */
+p a, ul a {
+    word-break: break-all; /* Helps prevent long URLs from breaking layout on small screens */
+}
+
+/* --- Media Queries for Responsive Design (adjusts for smaller screens) --- */
+
+/* For screens smaller than 768px (e.g., tablets in portrait, large phones) */
+@media (max-width: 768px) {
+    .hero-banner {
+        height: 300px; /* Make banner shorter on smaller screens */
+    }
+
+    h1 {
+        font-size: 3rem; /* Reduce heading size for medium screens */
+    }
+
+    p.intro-paragraph {
+        font-size: 1.2rem; /* Reduce intro paragraph size for medium screens */
+    }
+
+    h2 {
+        font-size: 1.5rem; /* Reduce sub-heading size for medium screens */
+    }
+}
+
+/* For screens smaller than 480px (e.g., typical mobile phones) */
+@media (max-width: 480px) {
+    .hero-banner {
+        height: 200px; /* Even shorter banner on mobile */
+    }
+
+    h1 {
+        font-size: 2.2rem; /* Further reduce heading for mobile */
+    }
+
+    p.intro-paragraph {
+        font-size: 1rem; /* Further reduce intro paragraph for mobile */
+    }
+
+    h2 {
+        font-size: 1.3rem; /* Further reduce sub-heading for mobile */
+    }
+
+    .main-content {
+        padding: 20px 15px; /* Adjust padding for very small screens */
+    }
+}
+
+/* --- REMOVED OLD STYLES --- */
+/* The following styles for .header-photo and .profile-img have been removed */
+/* as they are replaced by .hero-banner and the new HTML structure */
+/*
 .header-photo {
     text-align: center;
     margin-bottom: 30px;
@@ -19,25 +153,13 @@ body {
     border: 4px solid #fff;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
-
-h1 {
-    color: #000;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
+*/
+/* The generic p style with max-width and center margin has been refined
+   to be applied specifically where needed or handled by .main-content */
+/*
 p {
     max-width: 800px;
     margin: 0 auto 20px auto;
     text-align: center;
 }
-
-.project-section {
-    background-color: #fff;
-    padding: 25px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    margin-bottom: 30px;
-}
-
-/* ... any other CSS rules you have ... */
+*/
