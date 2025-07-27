@@ -1,4 +1,4 @@
-# 📊 Data Analytics Portfolio — by Katrina Francisco
+# 📊 Data Analytics Portfolio — by Katrina De Vera
 
 Welcome to my portfolio! I’m a certified data analyst passionate about transforming raw data into actionable insights. Below are two of my featured Power BI projects, both built using publicly available datasets.
 
