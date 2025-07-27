@@ -46,4 +46,4 @@ This project explores publicly available mining tenement data from **Western Aus
 
 ---
 
-👩🏻‍💻 *Thank you for viewing! I'm excited to bring data stories to life and open to feedback or collaboration. Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/YOUR-LINK).*
+👩🏻‍💻 *Thank you for viewing! I'm excited to bring data stories to life and open to feedback or collaboration. Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/katrinavera).*
